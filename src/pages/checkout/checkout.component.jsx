@@ -7,7 +7,6 @@ import {
   selectCartItems,
   selectCartTotal
 } from "../../redux/cart/cart.selectors";
-import { selectCurrentUser } from "../../redux/user/user.selectors";
 
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
 import StripeCheckoutComponent from "../../components/stripe-button/stripe-button.component";
